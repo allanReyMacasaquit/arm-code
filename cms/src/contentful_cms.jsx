@@ -4,7 +4,7 @@ import { createClient } from 'contentful';
 const client = createClient({
 	space: 'f7r00f9pw0zi',
 	environment: 'master',
-	accessToken: import.meta.env.VITE_CMS_API_KEY,
+	accessToken: import.meta.env.VITE_API_KEY,
 });
 
 const useFetchProjects = () => {
@@ -13,7 +13,7 @@ const useFetchProjects = () => {
 
 	const getData = async () => {
 		try {
-			const response = await client.getEntries({ content_type: 'CMS' });
+			const response = await client.getEntries({ content_type: 'cms' });
 			const projects = response.items.map((item) => {
 				const { title, url, image } = item.fields;
 				const id = item.sys.id;
