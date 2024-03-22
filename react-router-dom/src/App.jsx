@@ -7,6 +7,8 @@ import {
 	Landing,
 	NewsLetter,
 } from './Pages';
+import { loader as LandingLoader } from './Pages/Landing';
+
 const router = createBrowserRouter([
 	{
 		path: '/',
@@ -16,6 +18,7 @@ const router = createBrowserRouter([
 			{
 				index: true,
 				element: <Landing />,
+				loader: LandingLoader,
 			},
 			{
 				path: '/cocktail',

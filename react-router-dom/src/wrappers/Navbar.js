@@ -33,6 +33,8 @@ const Wrapper = styled.nav`
 	}
 	.active {
 		color: var(--primary-500);
+		text-decoration: underline;
+		text-underline-offset: 5px;
 	}
 	@media (min-width: 768px) {
 		.nav-center {
