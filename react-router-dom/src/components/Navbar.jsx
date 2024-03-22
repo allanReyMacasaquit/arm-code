@@ -1,14 +1,15 @@
 import { NavLink } from 'react-router-dom';
+import Wrapper from '../wrappers/Navbar';
 
 const links = [
-	{ id: 1, text: 'home', url: '/' },
-	{ id: 2, text: 'about', url: '/about' },
-	{ id: 3, text: 'newsletter', url: '/newsletter' },
+	{ id: 1, text: 'Home', url: '/' },
+	{ id: 2, text: 'About', url: '/about' },
+	{ id: 3, text: 'Newsletter', url: '/newsletter' },
 ];
 
 const Navbar = () => {
 	return (
-		<nav>
+		<Wrapper>
 			<div className='nav-center'>
 				<span className='logo'>
 					Mix
@@ -22,7 +23,7 @@ const Navbar = () => {
 					))}
 				</div>
 			</div>
-		</nav>
+		</Wrapper>
 	);
 };
 export default Navbar;

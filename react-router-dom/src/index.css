@@ -284,4 +284,13 @@ PROJECT CSS
 	max-width: var(--max-width);
 	margin: 0 auto;
 	padding: 5rem 2rem;
+	text-align: justify;
+}
+h3 {
+	color: var(--primary-600);
+}
+.error {
+	color: rgb(210, 76, 76);
+	font-size: large;
+	margin: 2rem;
 }
