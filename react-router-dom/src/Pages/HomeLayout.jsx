@@ -1,13 +1,12 @@
 import { Outlet } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 const HomeLayout = () => {
 	return (
-		<div>
-			<h1>
-				<h1>HomeLayout</h1>
-			</h1>
+		<>
+			<Navbar />
 			<Outlet />
-		</div>
+		</>
 	);
 };
 export default HomeLayout;
