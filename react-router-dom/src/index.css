@@ -251,6 +251,13 @@ ul {
 	}
 }
 
+.loading-container {
+	display: flex; /* Use flexbox to center */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	height: 25vh; /* Adjust the height as needed */
+}
+
 .loading {
 	width: 6rem;
 	height: 6rem;
@@ -259,7 +266,6 @@ ul {
 	border-top-color: var(--primary-500);
 	animation: spinner 0.6s linear infinite;
 }
-
 /* title */
 
 .title {
@@ -286,6 +292,7 @@ PROJECT CSS
 	padding: 5rem 2rem;
 	text-align: justify;
 }
+
 h3 {
 	color: var(--primary-600);
 }
