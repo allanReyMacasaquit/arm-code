@@ -10,16 +10,18 @@ const Wrapper = styled.div`
 	}
 	.img {
 		box-shadow: var(--shadow-2);
-		padding: 1px;
+		margin-bottom: 1rem;
 		border-radius: 20px;
 	}
 	.drink-info {
 		background-color: var(--primary-100);
 		border-radius: 20px;
-		padding: 2px 0;
 		margin: 4px 0;
+		text-decoration: underline;
+		text-underline-offset: 5px;
 	}
 	.drink p {
+		padding-bottom: 10px;
 		font-weight: 700;
 		text-transform: capitalize;
 		line-height: 2;
@@ -27,8 +29,6 @@ const Wrapper = styled.div`
 	}
 	.drink-data {
 		margin-right: 0.5rem;
-		background: var(--primary-300);
-		padding: 0.25rem 0.5rem;
 		border-radius: var(--borderRadius);
 		color: var(--primary-700);
 		letter-spacing: var(--letterSpacing);
