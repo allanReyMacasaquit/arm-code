@@ -289,8 +289,8 @@ PROJECT CSS
 h3 {
 	color: var(--primary-600);
 }
-.error {
+.error-message {
 	color: rgb(210, 76, 76);
 	font-size: large;
-	margin: 2rem;
+	padding: 2rem;
 }
