@@ -3,4 +3,7 @@ const Cocktail = () => {
 };
 export default Cocktail;
 
-export const loader = async (data) => {};
+export const loader = async (data) => {
+	console.log(data);
+	return null;
+};
