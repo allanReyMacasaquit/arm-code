@@ -292,5 +292,5 @@ h3 {
 .error-message {
 	color: rgb(210, 76, 76);
 	font-size: large;
-	padding: 2rem;
+	margin-bottom: 2rem;
 }

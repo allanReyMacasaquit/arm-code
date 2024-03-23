@@ -21,11 +21,9 @@ const CocktailList = ({ drinks }) => {
 
 	return (
 		<Wrapper>
-			{formattedDrinks.map(({ id }) => (
-				<div key={id}>
-					<CocktailCard />
-				</div>
-			))}
+			{formattedDrinks.map((item) => {
+				return <CocktailCard key={item.id} {...item} />;
+			})}
 		</Wrapper>
 	);
 };

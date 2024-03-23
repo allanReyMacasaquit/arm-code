@@ -6,9 +6,7 @@ const Wrapper = styled.article`
 	display: grid;
 	grid-template-rows: auto 1fr;
 	border-radius: var(--borderRadius);
-	:hover {
-		box-shadow: var(--shadow-4);
-	}
+
 	img {
 		height: 15rem;
 		border-top-left-radius: var(--borderRadius);
@@ -17,8 +15,10 @@ const Wrapper = styled.article`
 	.footer {
 		padding: 1.5rem;
 		h4,
-		h5 {
+		h5,
+		p {
 			margin-bottom: 0.5rem;
+			text-align: center;
 		}
 		h4 {
 			font-weight: 700;
